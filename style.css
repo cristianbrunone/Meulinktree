@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-section h1 {
+    color: white; /* Cambiar el color del nombre */
+}
+
+.profile-section p {
+    color: #af7ac5; 
+}
+
+.container {
+    background-image: url(img/beeautiful-landscape-with-mountain-starry-sky.jpg) ;
+    background-size: cover;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #4CAF50;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los botones horizontalmente */
+}
+
+.link {
+    background-color: transparent; /* Botones transparentes */
+    color: white; /* Color del borde */
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #4CAF50; /* Agregar borde */
+    border-radius: 5px; /* Redondear los bordes */
+    margin-bottom: 10px; /* Agregar espacio entre los botones */
+    transition: background-color 0.3s, color 0.3s; /* Agregar transición */
+    width: 320px;
+}
+
+.link:last-child {
+    margin-bottom: 20px; /* Ajustar el margen inferior */
+}
+
+.link:hover {
+    background-color: #388e3c;
+}
+
+.link:last-child {
+    border-bottom: none;
+}
+
+
